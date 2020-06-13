@@ -34,7 +34,8 @@ var veggieschema =
         "properties": {
           "veggieName": {
             "type": "string",
-            "description": "The name of the vegetable."
+            "description": "The name of the vegetable.",
+            "enum": ["potato", "carrot"]
           },
           "veggieLike": {
             "type": "boolean",
